@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap');
+
+body {
+  background-color: white;
+  color: black;
+  font-family: 'Laila', sans-serif;
+}
+
+header ul {
+    padding: 0;
+			 text-align: center;
+			 width: 100%;
+}
+
+header li {
+     font-size: 20px;
+				display: inline-block;
+				border: 2px solid #8d153a;
+				padding: 2px;
+				border-radius: 2px;
+				width: 30%;
+				background-color: #8d153a;
+}
+header li a {
+				color: white;
+}
+
+@media(min-width: 600px){
+				header li {
+								font-size: 30px;
+				}
+}
+
+section {
+				max-width: 800px;
+				margin: 0 auto;
+				text-align: center;
+}
+
+
+/* Breadcrumbs */
+
+ul.breadcrumb {
+  padding: 10px;
+  list-style: none;
+  background-color: #eee;
+  margin: 0px 4px 0px 4px;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 1em;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+p {
+			margin: 6px 6px 0px 6px;	
+}
+
+.disabled {
+				pointer-events: none;
+				cursor: default;
+}
+
+button {
+  background-color: #8d153a;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 2px;
+  font-family: 'Laila', sans-serif;
+}
+
+button a {
+				color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+input, textarea {
+    min-width: 200px;
+    max-width: 350px;
+				padding: 10px;
+				border-radius: 2px;
+				border: 1px solid black;
+				outline-color: #8d153a;
+				font-family: 'Laila', sans-serif;
+}
+
+/* Booklist */
+
+.booklist {
+				border: 2px solid #8d153a;
+				border-radius: 2px;
+}
+
+.booklist .author {
+				color: #ffffff;
+				background-color: #8d153a;
+				padding: 5px;
+}
+
+.booklist ol {
+    padding: 5;
+				text-align: left;
+				list-style: none;
+}
+
+.booklist li {
+				border-bottom: 1px solid #8d153a;
+}
+
+.booklist li:before {
+				content: '';
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-image: url('files/book-icon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-left: 5px;
+  vertical-align: middle;
+}
+
+/* Blog List */
+
+.blog {
+				border: 2px solid #8d153a;
+				border-radius: 2px;
+}
+
+.blog .author {
+				color: #ffffff;
+				background-color: #8d153a;
+				padding: 5px;
+}
+
+.blog ul {
+				padding: 5;
+				text-align: left;
+				list-style-type: none;
+}
+
+.blog li {
+				border-bottom: 1px solid #8d153a;
+}
+
+.blog li:before {
+content: '';
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-image: url('files/blog-icon.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-left: 5px;
+  vertical-align: middle;
+}
+
+/* Footer */
+
+footer {
+     background-color: #8d153a;
+				text-align: center;
+				color: white;
+				border-radius: 2px;
+}
+
+
+footer span {
+				font-size: 16px;
+}
+
+@media(min-width: 500px){
+				.app img {
+								width: 180px;
+				}
+				.app button {
+								font-size: 20px;
+				}
+				.app_main:after {
+				   display: table;
+				   clear: both;
+				}
+				.app {
+								float: left;
+								width: 33%;
+			 }
+			 footer span {
+			 				font-size: 22px;
+			 }
+}
