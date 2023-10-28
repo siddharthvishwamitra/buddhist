@@ -24,3 +24,15 @@ li a {
 				text-decoration: none;
 				color: white;
 }
+
+.br-8 {
+  border-radius: 8px;
+}
+
+.img-size-135 {
+  width: 135px;
+}
+
+.border-gray {
+  border: 2px solid #e8e8e8;
+}
