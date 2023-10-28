@@ -5,6 +5,7 @@
 <title>Library - Buddha and his Dhamma Hindi Site</title>
 <meta name="description" content="यह डिजिटल पुस्तकालय पूर्णता निशुल्क है। आप यहां से उपलब्ध पुस्तकों को डाउनलोड कर मुफ्त में पढ़ सकते हैं। यहां बौद्ध धम्म से सम्बन्धित पुस्तकें उपलब्ध कराई जायेंगी।">
 <link rel="stylesheet" href="../style.css"></link>
+<link rel="stylesheet" href="popup.css">
   </head>
   <body>
 <!-- Navbar -->
@@ -55,6 +56,7 @@
 <ol>
 <a href="http://ftp.budaedu.org/ebooks/pdf/IN004.pdf"><li>बौद्ध धर्म एक बुध्दिवादी अध्ययन</li></a>
 <a href="http://ftp.budaedu.org/ebooks/pdf/IN011.pdf"><li>धम्मपदं</li></a>
+<a href="http://ftp.budaedu.org/ebooks/pdf/IN020.pdf"><li>बौद्ध धर्म का सार</li></a>
 </ol>
 
 <div class="author">विविध</div>
@@ -63,6 +65,8 @@
 <a href="http://ftp.budaedu.org/ebooks/pdf/IN079.pdf"><li>बौद्धचर्या विधि - लामा लोबज़ङ्ग</li></a>
 <a href="http://ftp.budaedu.org/ebooks/pdf/IN003.pdf"><li>बुद्ध और उनके समकालीन भिक्षु - डॉ भिक्षु मेधंकर</li></a>
 <a href="http://ftp.budaedu.org/ebooks/pdf/IN042.pdf"><li>प्रबुद्ध साहस - दिलगो खेनछे</li></a>
+<a href="http://ftp.budaedu.org/ebooks/pdf/IN039.pdf"><li>बौद्धचर्या विधि - भिक्षु धर्मरक्षित</li></a>
+<a href="#" id="downloadLink"><li>शाक्यमुनि बुद्ध की चित्रकथा - हृषिकेश शरण</li></a>
 </ol>
 
 <div class="author">बौद्ध भिक्खुओं के लिए</div>
@@ -75,6 +79,16 @@
 </div>
 </section>
 <br>
+<!-- Download Popup of PictureBook -->
+
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <span class="close" id="closePopup">&times;</span>
+    <p>इस फाइल का साइज 332 एमबी है। क्या आप डाउनलोड करना चाहते हैं?</p>
+    <a href="http://ftp.budaedu.org/ebooks/pdf/IN084.pdf" id="downloadButton">डाउनलोड</a>
+  </div>
+</div>
+
 <!-- End page content -->
 <!-- Footer -->
 <footer style="border-radius:2px 2px 0px 0px;">
@@ -97,5 +111,6 @@
     <td rowspan=5 bgcolor="#FF7700"> </td>
   </tr>
 </table>
+<script src="popup.js"></script>
 </body>
 </html>
