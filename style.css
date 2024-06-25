@@ -107,6 +107,7 @@ input, textarea {
 	border: 1px solid black;
 	outline-color: #8d153a;
 	font-family: 'Laila', sans-serif;
+	resize: none;
 }
 
 /* Booklist */
