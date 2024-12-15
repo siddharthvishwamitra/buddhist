@@ -6,7 +6,8 @@ const links = {
   "b-fb": "https://facebook.com/bahdorg",
   "b-x": "https://x.com/dhammaapp",
   "b-privacy": "https://bahd.eu.org/legal/privacy",
-  "b-terms": "https://bahd.eu.org/legal/terms"
+  "b-terms": "https://bahd.eu.org/legal/terms",
+  "font-size-local": "font-settings.html"
 };
 
 document.addEventListener("DOMContentLoaded", () => {
