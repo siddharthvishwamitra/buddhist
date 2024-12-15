@@ -1,12 +1,12 @@
 const links = {
-  "ls-home": "https://bahd.eu.org",
-  "ls-about": "https://bahd.eu.org/about",
-  "ls-cc": "https://bahd.eu.org/contact",
-  "ls-faq": "https://bahd.eu.org/faqs",
-  "ls-fb": "https://facebook.com/bahdorg",
-  "ls-x": "https://x.com/dhammaapp",
-  "ls-privacy": "https://bahd.eu.org/legal/privacy",
-  "ls-terms": "https://bahd.eu.org/legal/terms"
+  "b-home": "https://bahd.eu.org",
+  "b-about": "https://bahd.eu.org/about",
+  "b-cc": "https://bahd.eu.org/contact",
+  "b-faq": "https://bahd.eu.org/faqs",
+  "b-fb": "https://facebook.com/bahdorg",
+  "b-x": "https://x.com/dhammaapp",
+  "b-privacy": "https://bahd.eu.org/legal/privacy",
+  "b-terms": "https://bahd.eu.org/legal/terms"
 };
 
 document.addEventListener("DOMContentLoaded", () => {
