@@ -8,7 +8,7 @@ const links = {
   "b-privacy": "https://bahd.eu.org/legal/privacy",
   "b-terms": "https://bahd.eu.org/legal/terms",
   "font-size-local": "font-settings.html",
-  "index-local": "vs/index.html"
+  "index-local": "vs/vs.html"
 };
 
 document.addEventListener("DOMContentLoaded", () => {
