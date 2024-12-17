@@ -7,7 +7,8 @@ const links = {
   "b-x": "https://x.com/dhammaapp",
   "b-privacy": "https://bahd.eu.org/legal/privacy",
   "b-terms": "https://bahd.eu.org/legal/terms",
-  "font-size-local": "font-settings.html"
+  "font-size-local": "font-settings.html",
+  "local-index": "vs/index.html"
 };
 
 document.addEventListener("DOMContentLoaded", () => {
