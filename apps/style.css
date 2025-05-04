@@ -6,6 +6,9 @@
 
 body {
 	font-family: 'Andada Pro', serif;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 8px;
 }
 
 ul {
@@ -13,6 +16,7 @@ ul {
 	padding: 0px;
 	border: 1px solid #e8e8e8;
 	border-radius: 8px;
+	list-style: none;
 }
 
 li {
