@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap');
 
+* {
+	font-family: 'Laila', sans-serif;
+}
+
 body {
   background-color: white;
   color: black;
-  font-family: 'Laila', sans-serif;
 }
 
 header ul {
@@ -218,4 +221,45 @@ footer span {
 	footer span {
 		font-size: 22px;
  }
+}
+
+/* 404 Page */
+.error {
+	font-family: 'Laila', sans-serif;
+	max-width: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.error img {
+	border-radius: 8px;
+	width: 150px;
+}
+
+.error .big-text {
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.error .text {
+	margin-bottom: 10px;
+	margin-top: 12px;
+	font-weight: bold;
+}
+
+.error .btn {
+	background-color: #8d153a;
+	color: white;
+	padding: 8px 12px;
+	border-radius: 5px;
+	width: 150px;
+	font-weight: bold;
+}
+
+.error .btn img {
+	width: 20px;
+	vertical-align: middle;
 }
