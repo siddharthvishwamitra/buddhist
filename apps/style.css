@@ -1,38 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 
+* {
+	-webkit-tap-highlight-color: transparent;
+}
+
 body {
-			 font-family: 'Andada Pro', serif;
+	font-family: 'Andada Pro', serif;
 }
 
 ul {
-   text-align: center;
-			padding: 0px;
+	text-align: center;
+	padding: 0px;
+	border: 1px solid #e8e8e8;
+	border-radius: 8px;
 }
 
 li {
-    text-align: center;
-				font-size: 18px;
-				background-color: #8d153a;
-				display: block;
-				margin: 5px;
-				padding: 8px;
-				border-radius: 2px;
-				color: white;
+	background: #8d153a;
+}
+
+li:first-child {
+	border-radius: 8px 8px 0px 0px;
+}
+
+li:last-child {
+	border-radius: 0px 0px 8px 8px;
+	margin-bottom: 0px;
 }
 
 li a {
-				text-decoration: none;
-				color: white;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	display: block;
+	padding: 8px;
+	color: #fff;
+	margin-bottom: 1px;
+}
+
+li:hover {
+	background-color: #a41b45;
+}
+
+ul .cs {
+	padding: 12px;
+	border-radius: 8px;
+	color: #fff;
+}
+
+ul .cs:hover {
+	background: #8d153a;
 }
 
 .br-8 {
-  border-radius: 8px;
+	border-radius: 8px;
 }
 
 .img-size-135 {
-  width: 135px;
+	width: 135px;
 }
 
 .border-gray {
-  border: 2px solid #e8e8e8;
+	border: 2px solid #e8e8e8;
 }
