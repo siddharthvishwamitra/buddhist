@@ -244,6 +244,7 @@ footer {
 	text-align: center;
 	color: white;
 	border-radius: 2px 2px 0px 0px;
+	-webkit-tap-highlight-color: transparent;
 }
 
 
