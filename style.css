@@ -140,6 +140,7 @@ button {
   padding: 10px 20px;
   border-radius: 2px;
   font-family: 'Laila', sans-serif;
+  min-width: 120px;
 }
 
 button a {
@@ -247,7 +248,6 @@ footer {
 	-webkit-tap-highlight-color: transparent;
 }
 
-
 footer span {
 	font-size: 16px;
 }
@@ -259,10 +259,6 @@ footer span {
 	.app button {
   	font-size: 20px;
 	}
-	.app_main:after {
-		display: table;
-		clear: both;
-	}
 	.app {
 		float: left;
 		width: 25%;
@@ -270,6 +266,12 @@ footer span {
 	footer span {
 		font-size: 22px;
  }
+}
+
+@media (min-width: 500px) {
+  .contact {
+    padding-top: 200px;
+  }
 }
 
 /* 404 Page */
@@ -315,6 +317,7 @@ footer span {
 
 .app .icon-in-btn {
 	width: 20px;
+	height: 20px;
 	vertical-align: middle;
 	margin-right: 4px;
 	border: none;
