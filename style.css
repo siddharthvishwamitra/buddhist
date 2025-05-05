@@ -180,7 +180,7 @@ input, textarea {
 }
 
 .booklist li {
-	border-bottom: 1px solid #8d153a;
+	border-bottom: 1px solid #e8e8e8;
 }
 
 .booklist li:before {
