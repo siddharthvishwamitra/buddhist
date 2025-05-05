@@ -41,7 +41,7 @@ li a {
 	display: block;
 	padding: 8px;
 	color: #fff;
-	margin-bottom: 1px;
+	margin-bottom: 0.5px;
 }
 
 li:hover {
@@ -64,6 +64,7 @@ ul .cs:hover {
 
 .img-size-135 {
 	width: 135px;
+	border-radius: 30%;
 }
 
 .border-gray {

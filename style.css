@@ -242,8 +242,8 @@ input, textarea {
 
 .app img {
   width: 135px;
-  border: 2px solid #e8e8e8;
-  border-radius: 8px;
+  border: 2px solid #ebebeb;
+  border-radius: 20%;
 }
 
 @media (min-width: 768px) {
