@@ -165,6 +165,25 @@ hr {
   margin-bottom: 0;
 }
 
+/* Hero */
+.hero-image {
+  width: 100%;
+  border-radius: 2px;
+  overflow: hidden;
+  background-image: url('/files/buddha_1200.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-color: #e8e8e8;
+  aspect-ratio: 3 / 2;
+}
+
+@media (max-width: 768px) {
+  .hero-image {
+    aspect-ratio: 16 / 9;
+  }
+}
+
 /* Forms */
 input,
 textarea {
