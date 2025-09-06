@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="/style.css">
+  {% if page.extra_css %}
+{% for css in page.extra_css %}
+<link rel="stylesheet" href="{{ css }}">
+{% endfor %}
+{% endif %}
 </head>
 <body>
   {% include header.html %}
@@ -12,5 +17,11 @@
     {{ content }}
   </section>
   {% include footer.html %}
+  
+{% if page.extra_js %}
+{% for js in page.extra_js %}
+<script src="{{ js }}"></script>
+{% endfor %}
+{% endif %}
 </body>
 </html>
