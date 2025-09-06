@@ -109,7 +109,7 @@ header ul li.active a::before {
   }
   
   header img {
-  padding-left: 10px;
+  padding-left: 25px;
   }
 }
 
@@ -208,6 +208,12 @@ hr {
 @media (max-width: 768px) {
   .hero-image {
     aspect-ratio: 16 / 9;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-image {
+    height: 320px;
   }
 }
 
