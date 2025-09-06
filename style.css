@@ -241,40 +241,6 @@ textarea {
   vertical-align: middle;
 }
 
-/* Blog List */
-.blog {
-	border: 2px solid #8d153a;
-	border-radius: 2px;
-}
-
-.blog .author {
-	color: #ffffff;
-	background-color: #8d153a;
-	padding: 5px;
-}
-
-.blog ul {
-	padding: 5;
-	text-align: left;
-	list-style-type: none;
-}
-
-.blog li {
-	border-bottom: 1px solid #8d153a;
-}
-
-.blog li:before {
-  content: '';
-  display: inline-block;
-  height: 20px;
-  width: 20px;
-  background-image: url('files/blog-icon.svg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding-left: 5px;
-  vertical-align: middle;
-}
-
 /* Apps list */
 .hand-underline {
   position: relative;
