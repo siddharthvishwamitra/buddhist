@@ -6,10 +6,8 @@ extra_css:
 extra_js:
 - "#"
 ---
-<link rel="stylesheet" href="/style.css">
+
 <div class="booklist">
-  <input type="text" id="bookSearch" placeholder="Search books..." />
-  
   <div class="author">तिपिटक</div>
 
   <h5>पाली में</h5>
@@ -67,17 +65,3 @@ extra_js:
   </ol>
 </div>
 <br>
-<script>
-const searchInput = document.getElementById('bookSearch');
-
-searchInput.addEventListener('input', function() {
-  const filter = this.value.toLowerCase().trim();
-  document.querySelectorAll('.booklist li').forEach(li => {
-    if (filter && li.textContent.toLowerCase().includes(filter)) {
-      li.classList.add('highlight');
-    } else {
-      li.classList.remove('highlight');
-    }
-  });
-});
-</script>
