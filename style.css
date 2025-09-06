@@ -305,10 +305,15 @@ textarea {
 
 .app {
   text-align: center;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .app button {
   margin-top: 8px;
+}
+
+.app button:active {
+  opacity: 0.9;
 }
 
 .app .app-ic {
