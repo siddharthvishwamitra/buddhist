@@ -13,6 +13,10 @@ body {
   color: black;
 }
 
+header img {
+  max-height: 80px;
+}
+
 header ul {
   padding: 0;
   text-align: center;
@@ -101,10 +105,11 @@ header ul li.active a::before {
   
   header li {
     font-size: 16px;
+    padding: 4px;
   }
   
   header img {
-  padding-left: 30px;
+  padding-left: 10px;
   }
 }
 
