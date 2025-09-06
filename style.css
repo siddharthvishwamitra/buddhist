@@ -224,38 +224,107 @@ textarea {
   }
 }
 
-/* Booklist */
+/* Container */
 .booklist {
-	border: 2px solid #8d153a;
-	border-radius: 2px;
+  border: 2px solid #8d153a;
+  border-radius: 4px;
+  padding: 10px;
+  max-width: 900px;
+  margin: auto;
+  background-color: #fff;
+  box-sizing: border-box;
 }
 
+/* Author header */
 .booklist .author {
-	color: #ffffff;
-	background-color: #8d153a;
-	padding: 5px;
+  color: #fff;
+  background-color: #8d153a;
+  padding: 8px 12px;
+  font-weight: bold;
+  border-radius: 2px;
+  margin-top: 15px;
+  box-sizing: border-box;
+  text-align: center;
 }
 
+/* Section titles */
+.booklist h5 {
+  margin: 10px 0 5px 0;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+/* List */
 .booklist ol {
-  padding: 5;
-	text-align: left;
-	list-style: none;
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 10px 0;
 }
 
+/* List items */
 .booklist li {
-	border-bottom: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 6px 0 6px 40px; /* enough space for icon */
+  position: relative;
+  min-height: 24px;
+  box-sizing: border-box;
 }
 
+/* Links inside list */
+.booklist li a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+/* Icon on left */
 .booklist li:before {
-	content: '';
-  display: inline-block;
-  height: 20px;
-  width: 20px;
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
   background-image: url('files/book-96.png');
   background-size: contain;
   background-repeat: no-repeat;
-  padding-left: 5px;
-  vertical-align: middle;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .booklist {
+    padding: 8px;
+  }
+
+  .booklist li {
+    padding-left: 35px;
+  }
+
+  .booklist h5 {
+    font-size: 1rem;
+  }
+
+  .booklist li:before {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .booklist li {
+    padding-left: 30px;
+  }
+
+  .booklist li:before {
+    width: 20px;
+    height: 20px;
+  }
+
+  .booklist h5 {
+    font-size: 0.95rem;
+    text-align: center;
+  }
 }
 
 /* Apps list */
