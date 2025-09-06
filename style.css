@@ -4,6 +4,10 @@
   font-family: 'Laila', sans-serif;
 }
 
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
   background-color: white;
   color: black;
@@ -227,7 +231,7 @@ textarea {
 /* Container */
 .booklist {
   border: 2px solid #8d153a;
-  border-radius: 4px;
+  border-radius: 2px;
   padding: 10px;
   max-width: 900px;
   margin: auto;
@@ -289,6 +293,12 @@ textarea {
   background-image: url('files/book-96.png');
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.booklist li.highlight {
+  background-color: #fff9c4;
+  font-weight: bold;
+  transition: all 0.3s ease;
 }
 
 /* Responsive styles */
