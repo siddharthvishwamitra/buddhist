@@ -486,3 +486,13 @@ footer span {
 	margin-right: 4px;
 	border: none;
 }
+
+#emailLink {
+  color: #8d153a;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#emailLink:hover {
+  color: #a01745;
+}
