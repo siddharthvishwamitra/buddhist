@@ -76,14 +76,31 @@ header li:nth-child(3) a::before {
   background-repeat: no-repeat;
 }
 
-@media(min-width: 600px) {
-  header img {
-    padding-left: 30px;
-  }
-}
-
 header ul li.active a::before {
   filter: grayscale(0%) brightness(0%) sepia(1) hue-rotate(-50deg) saturate(400%) contrast(100%);
+}
+
+@media (min-width: 600px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header ul {
+    display: flex;
+    gap: 15px;
+    width: auto;
+    text-align: right;
+  }
+  
+  header li {
+    font-size: 16px;
+  }
+  
+  header img {
+  padding-left: 30px;
+  }
 }
 
 section {
