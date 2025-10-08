@@ -14,9 +14,9 @@
 {% endif %}
 </head>
 <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
-  {% include header.html %}
+  {% include header_en.html %}
     {{ content }}
-  {% include footer.html %}
+  {% include footer_en.html %}
 {% if page.extra_js %}
 {% for js in page.extra_js %}
 <script src="{{ js }}"></script>
