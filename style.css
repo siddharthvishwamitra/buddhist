@@ -29,7 +29,7 @@ header ul {
 }
 
 header li {
-  font-size: 15px;
+  font-size: 16px;
   border: 2px solid #8d153a;
   padding: 3px;
   border-radius: 2px;
@@ -104,7 +104,7 @@ header ul li.active a::before {
   }
   
   header li {
-    font-size: 15px;
+    font-size: 14px;
     padding: 3px;
   }
   
