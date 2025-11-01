@@ -1,0 +1,10 @@
+header li:nth-child(2) {
+  background-color: #fff!important;
+  border-bottom: none!important;
+}
+header li:nth-child(2) a {
+  color: darkslategray!important;
+}
+header li:nth-child(2) a::before {
+  filter: brightness(0) saturate(100%);
+}
