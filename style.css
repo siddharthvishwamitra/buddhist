@@ -29,9 +29,9 @@ header ul {
 }
 
 header li {
-  font-size: 20px;
+  font-size: 15px;
   border: 2px solid #8d153a;
-  padding: 2px;
+  padding: 3px;
   border-radius: 2px;
   background-color: #8d153a;
   list-style: none;
@@ -104,8 +104,8 @@ header ul li.active a::before {
   }
   
   header li {
-    font-size: 16px;
-    padding: 4px;
+    font-size: 15px;
+    padding: 3px;
   }
   
   header img {
